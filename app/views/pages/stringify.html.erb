@@ -1,0 +1,5 @@
+<% if params[:name] == '' and params[:adjective] == '' %>
+    <%= @text %>
+<% else %>
+  <%= "#{params[:name]} #{params[:adjective]}" %>
+<% end %>
